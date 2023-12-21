@@ -45,5 +45,54 @@ namespace Donguler
             }
 
         }
+
+        private void btnWhile_Click(object sender, EventArgs e)
+        {
+
+            int i = 2;
+
+            
+
+        }
+
+        private void btnFactorial_Click(object sender, EventArgs e)
+        {
+            //Girilen değerin faktöriyelini while döngüsü kullanarak alınız.
+
+            ulong sayi = ulong.Parse(txtDeger.Text);
+            ulong sonuc = 1;
+            while (sayi > 0)
+            {
+                sonuc = sonuc * sayi;
+                sonuc *= sayi;
+                sayi--;
+            }
+            MessageBox.Show("Sonuç : " + sonuc);
+
+            //int[] dizi = { 1, 2, 3, 4 };
+
+            //int[,] matris =
+            //{
+            //    { 1, 2, 3, 4 },
+            //    { 5, 6, 7, 8 },
+            //    { 9, 10, 11, 12 }
+            //};
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        MessageBox.Show("eleman: " + matris[i,j]);
+
+            //    }
+            //}
+
+            //foreach (int sayi in matris)
+            //{
+            //    MessageBox.Show("eleman: " + sayi);
+
+            //}
+
+        }
     }
 }

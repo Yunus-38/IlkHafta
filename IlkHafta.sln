@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KararYapilari", "KararYapil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{C22AFDC0-BA6C-4044-8F6D-B98F163F61ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{EF6DC7AC-3300-4F32-A01B-CE1A2460DE44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C22AFDC0-BA6C-4044-8F6D-B98F163F61ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22AFDC0-BA6C-4044-8F6D-B98F163F61ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22AFDC0-BA6C-4044-8F6D-B98F163F61ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6DC7AC-3300-4F32-A01B-CE1A2460DE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6DC7AC-3300-4F32-A01B-CE1A2460DE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6DC7AC-3300-4F32-A01B-CE1A2460DE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6DC7AC-3300-4F32-A01B-CE1A2460DE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

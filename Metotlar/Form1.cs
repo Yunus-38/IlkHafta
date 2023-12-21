@@ -36,7 +36,7 @@ namespace Metotlar
 
         public void EkranaMesajYaz(string mesaj, int a)
         {
-            MessageBox.Show("MESAJ :  " + mesaj + " | "+ a);
+            MessageBox.Show("MESAJ :  " + mesaj + " | " + a);
         }
 
         public double KaresiniAl(double sayi)

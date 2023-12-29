@@ -93,6 +93,40 @@ namespace Donguler
 
             //}
 
+            for (int i = 0; i < 10; i++)
+            {
+
+            }
+
+            int a = 10;
+            int b = 5;
+            while (a>5)
+            {
+                b++;
+
+                if (b==7)
+                {
+                    break;
+                }
+            }
+
+            int[] ints = { 1, 2, 10, 8, 2, 3, };
+            foreach (int x in ints)
+            {
+                if (x==10)
+                {
+                    continue;
+                }
+                MessageBox.Show("Sayi: " + x);
+            }
+
+            int[] sayilar = new int[3];
+
+            for (int i = 0; i < sayilar.Length; i++)
+            {
+                sayilar[i] = i+1;
+            }
+
         }
     }
 }
